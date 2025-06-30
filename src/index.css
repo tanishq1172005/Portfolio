@@ -140,6 +140,7 @@ main .intro{
 }
 
 .projects{
+    font-family:"Mulish",sans-serif;
     display: flex;
     gap: 20px;
 }
