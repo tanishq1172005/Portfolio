@@ -140,12 +140,12 @@ main .intro{
 }
 
 .projects{
-    font-family:"Mulish",sans-serif;
     display: flex;
     gap: 20px;
 }
 
 .project{
+    font-family:"Mulish",sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
