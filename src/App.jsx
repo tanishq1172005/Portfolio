@@ -47,7 +47,7 @@ export default function App(){
       style={{textDecoration:"none"}}>
         <div className="project">
         <div className="project-image1"></div>
-        <h2>News-Monkey</h2>
+        <h2>Translet</h2>
         <p>Translate your text in the given languages using Translet</p>
         <p className="tag">React</p>
         <p className="tag">Tailwind</p>
