@@ -43,14 +43,14 @@ export default function App(){
         <p className="tag">Firebase</p>
       </div>
       </a>
-      <a href="https://news-search-phi.vercel.app/"
+      <a href="https://translet.vercel.app/"
       style={{textDecoration:"none"}}>
         <div className="project">
         <div className="project-image1"></div>
         <h2>News-Monkey</h2>
-        <p>See your favorite news with their source. Made with data from News API</p>
+        <p>Translate your text in the given languages using Translet</p>
         <p className="tag">React</p>
-        <p className="tag">NewsAPI</p>
+        <p className="tag">Tailwind</p>
       </div>
       </a>
     </div>
