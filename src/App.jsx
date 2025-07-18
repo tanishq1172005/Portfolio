@@ -17,9 +17,9 @@ export default function App(){
     <nav>
       <div className="logo">TSB</div>
       <div className="contact">
-        <a href="https://github.com/tanishq1172005">Github</a>
-        <a href="https://www.linkedin.com/in/tanishq-bisht-724528306/">LinkedIn</a>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbSMtLvChCbqHNlZBlFznljTxFZVKpCnxGnkgSdmbzMNVMwCjfKQmRcqMHwTnMCLFBwfTr">E-mail</a>
+        <a href="https://github.com/tanishq1172005" target="_blank" rel="noopener noreferrer">Github</a>
+        <a href="https://www.linkedin.com/in/tanishq-bisht-724528306/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbSMtLvChCbqHNlZBlFznljTxFZVKpCnxGnkgSdmbzMNVMwCjfKQmRcqMHwTnMCLFBwfTr" target="_blank" rel="noopener noreferrer">E-mail</a>
       </div>
     </nav>
   </header>
