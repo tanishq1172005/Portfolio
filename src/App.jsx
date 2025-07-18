@@ -1,4 +1,8 @@
 import { useRef } from "react"
+import Projects from "./Projects"
+import devverse from './assets/devverse.jpg'
+import translet from './assets/Translet.jpg'
+import devsearch from './assets/OIP.webp'
 
 export default function App(){
   const projectsRef=useRef(null)
@@ -31,28 +35,9 @@ export default function App(){
     </div>
     <h1 className="project-h1">My Projects</h1>
     <div className="projects" ref={projectsRef}>
-      <a
-      href="https://dev-verse-tau.vercel.app/"
-      style={{ textDecoration: "none" }}
-    >
-      <div className="project">
-        <div className="project-image2"></div>
-        <h2>DevVerse</h2>
-        <p>A Personal Productivity Journal Webapp</p>
-        <p className="tag">React</p>
-        <p className="tag">Firebase</p>
-      </div>
-      </a>
-      <a href="https://news-search-phi.vercel.app/"
-      style={{textDecoration:"none"}}>
-        <div className="project">
-        <div className="project-image1"></div>
-        <h2>News-Monkey</h2>
-        <p>See your favorite news with their source. Made with data from News API</p>
-        <p className="tag">React</p>
-        <p className="tag">NewsAPI</p>
-      </div>
-      </a>
+      <Projects link="https://dev-verse-tau.vercel.app/" name="Devverse" image={devverse} title="Your personal productivity journal" tag1="React" tag2="Firebase" />
+      <Projects link="https://devsearch-gamma.vercel.app/" name="Devsearch" image={devsearch} title="Search for your common errors" tag1="React" tag2="Tailwind" />
+      <Projects link="https://translet.vercel.app/" name="Translet" image={translet}  title="Translate your text" tag1="React" tag2="RapidAPI" />
     </div>
   </main>
   <footer>

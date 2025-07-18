@@ -141,10 +141,11 @@ main .intro{
 
 .projects{
     display: flex;
-    gap: 20px;
+    gap:20px;
 }
 
 .project{
+    font-family:"Mulish",sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,6 +222,17 @@ footer p{
     font-family: "Mulish",sans-serif;
     margin-top:25px ;
     font-size: 20px;
+}
+
+@media (min-width:600px){
+  .projects{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    flex-wrap:unset;
+    justify-content: unset;
+    align-items: unset;
+    gap: 20px;
+  }
 }
 
 /* Responsive Styles */
