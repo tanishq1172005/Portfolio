@@ -23,7 +23,7 @@ export function Hero() {
         </motion.p>
 
         <h1 className="mt-8 font-display text-[clamp(2.75rem,10vw,7.5rem)] font-medium leading-[0.92] tracking-[-0.04em]">
-          {["Technical SEO &", "web developer"].map((text, i) => (
+          {["AI Engineer &", "web developer"].map((text, i) => (
             <span key={text} className="block overflow-hidden pb-[0.14em]">
 
               <motion.span
@@ -52,9 +52,7 @@ export function Hero() {
           className="mt-10 grid gap-10 md:grid-cols-[1.1fr_0.9fr]"
         >
           <p className="max-w-xl text-balance-pretty text-lg leading-relaxed text-muted-foreground">
-            SEO-focused developer who builds and optimizes websites for organic search
-            visibility — technical SEO, site architecture and Core Web Vitals, backed by a
-            full-stack toolkit in React, Node.js, MongoDB and PostgreSQL.
+            Full Stack Developer proficient in Python, Langchain, Nodejs, PostgreSQL, Redis, React, Nextjs with also knowledge and experience in technical SEO. Building end to end deployment ready software 
           </p>
 
           <div className="flex flex-wrap items-start gap-3 md:justify-end">

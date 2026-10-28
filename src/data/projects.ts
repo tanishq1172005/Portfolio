@@ -1,7 +1,7 @@
 import git from "../assets/git.png"
 import codearena from "../assets/codearena.jpeg"
 import pinterest from "../assets/pinterest.jpeg"
-
+import researchMind from "../assets/researchmind.png"
 export type Project = {
   title: string;
   description: string;
@@ -17,8 +17,16 @@ export type Project = {
  */
 export const projects: Project[] = [
   {
+    title:"ResearchMind",
+    description:"AI Researcher, Summarizer and Critic agent made using python, BeautifulSoup, Langchain and Tavily",
+    tags:["Python","Langchain","Tavily"],
+    image:researchMind,
+    href:"https://researchmind-dzvrfogc8e2nkduzrwmjtv.streamlit.app/",
+    year:"2026"
+  },
+  {
     title: "Gitignore Generator",
-    description: "SEO-focused developer tool with 100+ users since launch. Built with a search-driven site structure and web optimization, ranking well on Google for gitignore-generator searches.",
+    description: "SEO-focused developer tool with 800+ impressions since launch. Built with a search-driven site structure and web optimization, ranking well on Google for gitignore-generator searches.",
     tags: ["Astrojs", "SEO", "JavaScript"],
     image: git,
     href: "https://gitignore.online/",

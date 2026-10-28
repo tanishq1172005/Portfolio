@@ -2,12 +2,12 @@ import { motion } from "motion/react";
 
 const facts = [
   {
-    k: "SEO",
-    v: "Technical & On-Page SEO · Keyword Research · Search Intent · Website Architecture · Internal Linking · Schema Markup · AEO / AI Search Optimization",
+    k:"AI Engineering",
+    v:"Python, LangChain, LangGraph, LLMs, Agentic AI, AI Chatbots, Prompt Engineering, and RAG."
   },
   {
-    k: "Crawling & Performance",
-    v: "Crawling & Indexing · XML Sitemap · Robots.txt · Core Web Vitals · SEO Audits",
+    k: "SEO",
+    v: "Technical & On-Page SEO · Keyword Research · Search Intent · Website Architecture · Internal Linking · Schema Markup · AEO / AI Search Optimization",
   },
   { k: "Analytics", v: "Google Search Console · Google Analytics · SEO Performance Analysis" },
   {
@@ -32,14 +32,14 @@ export function About() {
 
         <div className="space-y-8">
           <p className="font-display text-2xl leading-snug tracking-tight sm:text-3xl">
-            I&apos;m an SEO-focused developer who builds websites and makes them easy to find —
-            from site structure to search-ready code.
+            I&apos;m an AI Engineer and full stack developer who builds websites —
+            from production ready code to deployment.
           </p>
           <p className="max-w-2xl leading-relaxed text-muted-foreground">
-            I have hands-on experience in technical SEO, on-page optimization, website
+            I have hands-on experience in Python, technical SEO, on-page optimization, website
             structure and performance. My full-stack background in React, Node.js, MongoDB and
-            PostgreSQL lets me bridge SEO and development teams, shipping changes that actually
-            improve crawling, indexing and rankings.
+            PostgreSQL lets me build scalable applications, shipping changes that actually
+            improve accessibility, user experience and rankings.
           </p>
 
           <dl className="grid gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-2">
